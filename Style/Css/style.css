@@ -197,28 +197,35 @@ body {
 
 #Pho {
     color: #001833;
+    -webkit-text-stroke: 0.05em rgba(0, 24, 51, 0.5);
 }
 
 #Ill {
     color: #300000;
+    -webkit-text-stroke: 0.05em rgba(48, 0, 0, 0.5);
 }
 
 #Ind {
     color: #470019;
+    -webkit-text-stroke: 0.05em rgba(71, 0, 25, 0.5);
 }
 
 #Inv {
     color: #DAAE03;
+    -webkit-text-stroke: 0.05em rgba(218, 174, 3, 0.5);
 }
 
 #Blo {
     color: #128DD3;
+    -webkit-text-stroke: 0.05em rgba(18, 141, 211, 0.5);
 }
 
 #HTM {
     color: #F16524;
+    -webkit-text-stroke: 0.05em rgba(241, 101, 36, 0.5);
 }
 
 #csss {
     color: #2162AF;
+    -webkit-text-stroke: 0.05em rgba(33, 98, 175, 0.5);
 }
