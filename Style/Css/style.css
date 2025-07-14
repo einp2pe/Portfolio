@@ -3,34 +3,55 @@ html {
 }
 
 body {
-    background-color: #0B0C15;
     color: white;
     margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
+    background-color: #0B0C15;
+    font-family: 'Segoe UI', sans-serif;
 }
 
-.navbar ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+.navbar {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 10;
     text-align: center;
 }
 
-.navbar a:hover{
-    background-color: #000010;
+.start {
+    text-align: center;
+    font-size: 20px;
 }
 
-.navbar li {
-    float: left;
+.name {
+    font-size: 40px;
+    background: linear-gradient(90deg, #FF4DA6, #5D9EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FF4DA6;
 }
 
 #skills {
@@ -38,6 +59,7 @@ body {
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 30px;
     justify-items: center;
+    justify-content: center;
 }
 
 .image {
@@ -105,8 +127,104 @@ body {
 
 .gulp {
     padding-top: 75px;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #FF4DA6, #5D9EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#contact {
+#contacti {
     text-align: center;
+}
+
+.slider2 {
+    display: flex;
+    aspect-ratio: 1.6/0.9;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+
+.slider2 img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+
+.slider2-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider2-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.50;
+    transition: opacity ease 250ms;
+}
+
+.slider2-nav a:hover {
+    opacity: 1;
+}
+
+.cont-logo {
+    text-align: center;
+}
+
+#dc {
+    max-width: 2.5%;
+    max-height: 2.5%;
+}
+
+#ml {
+    max-width: 2.5%;
+    max-height: 2.5%;
+}
+
+#about {
+    text-align: center;
+}
+
+#Pho {
+    color: #001833;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#Ill {
+    color: #300000;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#Ind {
+    color: #470019;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#Inv {
+    color: #DAAE03;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#Blo {
+    color: #128DD3;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#HTM {
+    color: #F16524;
+    -webkit-text-stroke: 0.01em white;
+}
+
+#csss {
+    color: #2162AF;
+    -webkit-text-stroke: 0.01em white;
 }
